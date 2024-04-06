@@ -12,9 +12,9 @@ CycleGAN, based on the paper [Unpaired Image-to-Image Translation using Cycle-Co
 
 To explore the capabilities of CycleGAN, implementations were done in both TensorFlow and PyTorch, the two most widely used frameworks in Deep Learning. Each implementation provides deep insights into the differences and similarities between these frameworks, offering practical perspectives for deep learning practitioners.
 
-- [TensorFlow Notebook](https://github.com/JersonGB22/DeepLearning-TensorFlow-PyTorch/blob/main/GenerativeDeepLearning/CycleGAN_horse2zebra/TensorFlow.ipynb)
+- [TensorFlow Notebook](TensorFlow.ipynb)
 
-- [PyTorch Notebook](https://github.com/JersonGB22/DeepLearning-TensorFlow-PyTorch/blob/main/GenerativeDeepLearning/CycleGAN_horse2zebra/PyTorch.ipynb)
+- [PyTorch Notebook](PyTorch.ipynb)
 
 ## Dataset Setup
 
