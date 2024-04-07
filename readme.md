@@ -1,24 +1,22 @@
 # <h1 align="center">CycleGAN</h1>
 
 <p align="center">
-<img src="https://www.tensorflow.org/static/tutorials/generative/images/cycle_loss.png"> 
+<img src="images/image_readme.png"> 
 </p>
-<p align="center"><i>Source: TensorFlow</i></p>
 
-
-CycleGAN, based on the paper [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593) by Zhu et al. (2017), offers a solution for image translation between domains without requiring paired training examples. It involves capturing the characteristics of one image domain and learning to map them to another domain, resulting in a powerful tool for image manipulation.
+This repository implements generative models inspired by the paper [*Image-to-Image Translation Using Cycle-Consistent Adversarial Networks*](https://arxiv.org/abs/1703.10593) by Zhu et al. (2017), also known as CycleGAN. This method presents an innovative approach to image translation between domains, eliminating the need for paired training data. By extracting features from one image domain and effectively mapping them to another, CycleGAN provides a powerful tool for image manipulation.
 
 ## TensorFlow and PyTorch Implementations
 
 To explore the capabilities of CycleGAN, implementations were done in both TensorFlow and PyTorch, the two most widely used frameworks in Deep Learning. Each implementation provides deep insights into the differences and similarities between these frameworks, offering practical perspectives for deep learning practitioners.
 
-- [TensorFlow Notebook](TensorFlow.ipynb)
+- [TensorFlow Notebook](CycleGAN_horse2zebra_TensorFlow.ipynb)
 
-- [PyTorch Notebook](PyTorch.ipynb)
+- [PyTorch Notebook](CycleGAN_horse2zebra_PyTorch.ipynb)
 
 ## Dataset Setup
 
-The "horse2zebra" dataset was chosen, consisting of directories of images of horses and zebras. In the case of PyTorch, the dataset is accessed through a download or direct link from [my Personal Drive](https://drive.google.com/drive/folders/1sQmAlteOtIQV_mg2meP25xe34NO3YTTm?usp=drive_link), while TensorFlow enables direct loading of the dataset using TensorFlow Datasets.
+The ``horse2zebra`` dataset was chosen, consisting of directories of images of horses and zebras. In the case of PyTorch, the dataset is accessed through a download or direct link from [my Personal Drive](https://drive.google.com/drive/folders/1sQmAlteOtIQV_mg2meP25xe34NO3YTTm?usp=drive_link), while TensorFlow enables direct loading of the dataset using TensorFlow Datasets.
 
 ## Key Components of CycleGAN
 
