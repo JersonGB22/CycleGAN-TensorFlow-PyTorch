@@ -1,4 +1,4 @@
-# <h1 align="center">CycleGAN</h1>
+# <h1 align="center">**CycleGAN**</h1>
 
 <p align="center">
 <img src="images/image_readme.png"> 
@@ -6,7 +6,7 @@
 
 This repository implements generative models inspired by the paper [*Image-to-Image Translation Using Cycle-Consistent Adversarial Networks*](https://arxiv.org/abs/1703.10593) by Zhu et al. (2017), also known as CycleGAN. This method presents an innovative approach to image translation between domains, eliminating the need for paired training data. By extracting features from one image domain and effectively mapping them to another, CycleGAN provides a powerful tool for image manipulation.
 
-## TensorFlow and PyTorch Implementations
+## **TensorFlow and PyTorch Implementations**
 
 To explore the capabilities of CycleGAN, implementations were done in both TensorFlow and PyTorch, the two most widely used frameworks in Deep Learning. Each implementation provides deep insights into the differences and similarities between these frameworks, offering practical perspectives for deep learning practitioners.
 
@@ -14,11 +14,11 @@ To explore the capabilities of CycleGAN, implementations were done in both Tenso
 
 - [PyTorch Notebook](CycleGAN_horse2zebra_PyTorch.ipynb)
 
-## Dataset Setup
+## **Dataset Setup**
 
 The ``horse2zebra`` dataset was chosen, consisting of directories of images of horses and zebras. In the case of PyTorch, the dataset is accessed through a download or direct link from [my Personal Drive](https://drive.google.com/drive/folders/1sQmAlteOtIQV_mg2meP25xe34NO3YTTm?usp=drive_link), while TensorFlow enables direct loading of the dataset using TensorFlow Datasets.
 
-## Key Components of CycleGAN
+## **Key Components of CycleGAN**
 
 Among the crucial aspects of CycleGAN are:
 
@@ -27,7 +27,7 @@ Among the crucial aspects of CycleGAN are:
 - **PatchGAN Discriminators:** Inspired by the [pix2pix paper](https://arxiv.org/abs/1611.07004), PatchGAN discriminators are used to evaluate the authenticity of generated images at a patch level, providing detailed feedback.
 - **Cycle Consistency Loss:** A cycle consistency loss is introduced to ensure accurate mapping between image domains. Since CycleGAN lacks paired data available for training, this loss plays a crucial role in model convergence and the quality of generated translations.
 
-## Exemplary Results
+## **Exemplary Results**
 
 <p align="center">
 <img src="images/horses_to_zebras.gif"> 
@@ -39,12 +39,13 @@ Among the crucial aspects of CycleGAN are:
 
 The exemplary images and GIFs of the results are located in the [images folder](images), with additional examples available in the notebooks.
 
-## Technological Stack
+## **Technological Stack**
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://docs.python.org/3/) 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=101010)](https://www.tensorflow.org/api_docs)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=101010)](https://pytorch.org/docs/stable/index.html)
+[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white&labelColor=101010)](https://plotly.com/)
 
-## Contact
+## **Contact**
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:jerson.gimenesbeltran@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/jerson-gimenes-beltran/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/JersonGB22/)
